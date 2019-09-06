@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Added a link to our external stylesheet-->
+    <link rel="stylesheet" href="Assets/css/style.css">
+
+
+</head>
+
+<body background="Assets/images/background.jpg">
+    <div class="container">
+        <h1> Colors Trivia</h1>        
+        <div id="startdiv">             
+            <button id="startbtn">Start</button>
+        </div>
+        <div id="questionsDiv">
+            <div id="formdiv">
+                <p id="timeLeft">Time Left: 10 secs</p>
+                <form>
+                    <ul>
+                        <li>
+                            <p> What is the color of sky?</p>
+                            <fieldset id="group1">
+                            <input type="radio" name="group1" value="Red"> Red
+                            <input type="radio" name="group1" value="Blue"> Blue
+                            <input type="radio" name="group1" value="Green"> Green
+                        </fieldset>
+                        </li>
+                        <li>
+                            <p>What is the color of leaves? </p>
+                            <fieldset id="group2">
+                            <input type="radio" name="group2" value="Red"> Red
+                            <input type="radio" name="group2" value="Blue"> Blue
+                            <input type="radio" name="group2" value="Green"> Green
+                        </fieldset>
+                        </li>
+
+                        <li>
+                            <p>What is the color of apple? </p>
+                            <fieldset id="group3">
+                            <input type="radio" name="group3" value="Red"> Red
+                            <input type="radio" name="group3" value="Blue"> Blue
+                            <input type="radio" name="group3" value="Green"> Green
+                        </fieldset>
+                        </li>
+                    </ul>
+                </form>
+                <button id="done">DONE</button>
+            </div>
+        </div>
+        <div id="resultdiv">
+            <h2> All Done!</h2>
+            <p>Correct Anwers :<span id="correctAnswers">0</span></p>
+            <p>Wrong Anwers :<span id="wrongAnswers">0</span></p>
+            <p>Unanwered :<span id="unanwered">0</span></p>
+        </div>
+    </div>
+
+
+    <script src="Assets/javascript/app.js"></script>
+
+
+
+</body>
+
+</html>

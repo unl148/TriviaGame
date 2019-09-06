@@ -1,0 +1,40 @@
+.container{
+    min-height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: beige;
+    text-align: center;
+    padding-top: 30px;
+}
+body{
+   
+    background-repeat: no-repeat;
+    background-size: cover;  
+    margin:0;
+}
+#questionsDiv{
+    display: none;
+}
+#formdiv {
+    text-align:left; 
+    display:inline-block; 
+    margin:0 auto;
+    border: 1px black;
+}
+h1{
+    padding-bottom: 30px;
+}
+#startdiv{
+    text-align:left; 
+    display:inline-block; 
+    margin:0 auto;
+}
+#resultdiv{
+    display: none;
+}
+li{
+    padding-bottom: 30px;
+}
+#done{
+    display: flex;margin:0 auto;
+}
